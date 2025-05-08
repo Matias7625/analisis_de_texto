@@ -13,12 +13,10 @@ st.set_page_config(
 )
 image = Image.open("imagen_2025-05-08_041656617.png") 
 # Título y descripción
-st.title("📝 Analizador de Texto con TextBlob")
+st.title("💀 Analizador de Texto con el caracas")
 st.markdown("""
-Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
-- Análisis de sentimiento y subjetividad
-- Extracción de palabras clave
-- Análisis de frecuencia de palabras
+Esta aplicación utiliza el ingeneio de la caraca para análisar tu en texto:
+- Análisis de sentimiento y subjetividad para que la acaraca mira si te regala una pola 🍺🍺🍺
 """)
 
 # Barra lateral
@@ -157,11 +155,11 @@ def crear_visualizaciones(resultados):
         st.progress(sentimiento_norm)
         
         if resultados["sentimiento"] > 0.05:
-            st.success(f"📈 Positivo ({resultados['sentimiento']:.2f})")
+            st.success(f"🔥 Pana ({resultados['sentimiento']:.2f})")
         elif resultados["sentimiento"] < -0.05:
-            st.error(f"📉 Negativo ({resultados['sentimiento']:.2f})")
+            st.error(f"💀 Paila ({resultados['sentimiento']:.2f})")
         else:
-            st.info(f"📊 Neutral ({resultados['sentimiento']:.2f})")
+            st.info(f"🫠 Meh ({resultados['sentimiento']:.2f})")
         
         # Subjetividad ya está en el rango 0-1
         st.write("**Subjetividad:**")
