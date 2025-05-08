@@ -24,7 +24,7 @@ Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 # Barra lateral
 st.sidebar.title("Vamos a ver como te sientes pibe")
 image = Image.open("imagen_2025-05-08_041656617.png") 
-st.image(image, caption "Dale con animo a la opción")
+st.image(image, caption="Dale con animo a la opción")
 modo = st.sidebar.selectbox(
     "Selecciona el modo de entrada:",
     ["Texto directo", "Archivo de texto"]
