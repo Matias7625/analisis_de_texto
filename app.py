@@ -156,7 +156,7 @@ def crear_visualizaciones(resultados):
         
         if resultados["sentimiento"] > 0.05:
             st.success(f"🔥 Pana ({resultados['sentimiento']:.2f})")
-            st.image(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGRtZHozZDJoNmFqNXFhNzU4bGd6Z3hoNGd6YWVnMHh2ZjZ5OW53ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwfAa9rbXaZe86c/giphy.gif)
+            st.image()
             st.error(f"💀 Paila ({resultados['sentimiento']:.2f})")
         else:
             st.info(f"🫠 Meh ({resultados['sentimiento']:.2f})")
