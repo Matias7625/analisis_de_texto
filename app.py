@@ -21,7 +21,7 @@ Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 """)
 
 # Barra lateral
-st.sidebar.title("Opciones")
+st.sidebar.title("Vamos a ver como te sientes pibe")
 modo = st.sidebar.selectbox(
     "Selecciona el modo de entrada:",
     ["Texto directo", "Archivo de texto"]
