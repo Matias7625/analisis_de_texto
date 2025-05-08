@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
+image = Image.open("imagen_2025-05-08_041656617.png") 
 # Título y descripción
 st.title("📝 Analizador de Texto con TextBlob")
 st.markdown("""
@@ -23,7 +23,7 @@ Esta aplicación utiliza TextBlob para realizar un análisis básico de texto:
 
 # Barra lateral
 st.sidebar.title("Vamos a ver como te sientes pibe")
-image = Image.open("imagen_2025-05-08_041656617.png")
+st.image()
 modo = st.sidebar.selectbox(
     "Selecciona el modo de entrada:",
     ["Texto directo", "Archivo de texto"]
