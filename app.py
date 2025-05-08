@@ -156,13 +156,13 @@ def crear_visualizaciones(resultados):
         
         if resultados["sentimiento"] > 0.05:
             st.success(f"🔥 Pana ({resultados['sentimiento']:.2f})")
-            st.image(Animation - 1746697349386 (1).gif)
+            st.image("Animation - 1746697349386 (1).gif")
         elif x <== -005:
             st.error(f"💀 Paila ({resultados['sentimiento']:.2f})")
-            st.image(Animation - 1746697398473.gif)
+            st.image("Animation - 1746697398473.gif")
         else:
             st.info(f"🫠 Meh ({resultados['sentimiento']:.2f})")
-            st.image(Animation - 1746697316683.gif)
+            st.image("Animation - 1746697316683.gif")
         
         # Subjetividad ya está en el rango 0-1
         st.write("**Subjetividad:**")
