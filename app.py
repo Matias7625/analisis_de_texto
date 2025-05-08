@@ -156,8 +156,7 @@ def crear_visualizaciones(resultados):
         
         if resultados["sentimiento"] > 0.05:
             st.success(f"🔥 Pana ({resultados['sentimiento']:.2f})")
-            st.image(<div style="width:100%;height:0;padding-bottom:149%;position:relative;"><iframe src="https://giphy.com/embed/3ohhwfAa9rbXaZe86c" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/dance-halloween-twerk-3ohhwfAa9rbXaZe86c">via GIPHY</a></p>)
-        elif resultados["sentimiento"] < -0.05:
+            st.image(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGRtZHozZDJoNmFqNXFhNzU4bGd6Z3hoNGd6YWVnMHh2ZjZ5OW53ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwfAa9rbXaZe86c/giphy.gif)
             st.error(f"💀 Paila ({resultados['sentimiento']:.2f})")
         else:
             st.info(f"🫠 Meh ({resultados['sentimiento']:.2f})")
